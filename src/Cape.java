@@ -88,11 +88,6 @@ public class Cape implements Knightgear, Magegear {
     }
 
     @Override
-    public String[] GetName_Type() {
-        return new String[]{Name,CapeType};
-    }
-
-    @Override
     public void Stat() {
         System.out.println("Cape : "+ Name + " Level " + Level);
         System.out.println("GearType : "+ CapeType + " Class");
